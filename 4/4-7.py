@@ -14,4 +14,14 @@ def polygon(t, n, length):
 	polyline(t, n, length, 360 / n)
 def circle(t, r):
 	arc(t, r, 360)
+'''
+bob = turtle.Turtle()
+circle(bob, 100)
+turtle.mainloop()
+'''
+'''
+bob = turtle.Turtle()
+polygon(bob, 6, 50)
+turtle.mainloop()
+'''
 
